@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+h1{
+  border: 5px solid transparent; /* Borda transparente */
+  border-top: 10px solid black;  /* Borda superior preta */
+  border-bottom: 10px solid black; /* Borda inferior vermelha */
+  padding: 20px;
+  color:purple;
+  font-family: "Anton SC", sans-serif;
+  font-weight:1000;
+  font-style:center;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align:center;
+}
+h2{
+  
+  font-family: "Anton SC", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align:center;
+  color:purple;
+}
+p{
+  color:black ;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#about{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about>img{
+  width: 200px;
+  border-radius: 50%;        /* Centraliza verticalmente */
+}
+.social-flex{
+  width:40px;
+}
+
+
+
+
+
+
+
+
